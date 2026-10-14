@@ -38,15 +38,14 @@ Scripts for processing phyloseq objects for GWAS analyses are found in the ~/Pre
 Scripts for examining microbial abundances, GWAS, Wilcoxon tests are found in the ~/analyses/ folder. (Heritability calculations are in ModelingAndPhenotypeFilePrep.R in the ~/PrepForAnalysis folder)
 1. CommunityAnalyses.R performs relative abundance, MDS, and Random Forest analyses.
 
-2. GWASandWilcoxons.R uses the prepared phenotype files as well as the BMB_GD.txt and BMB_GM.txt files of genotype and SNP data to perform GWAS in GAPIT.
-The Wilcoxons code is for testing differences in agronomic traits between allelic groups at microbe trait associated SNPs.
+2. GWASandWilcoxons.R uses the prepared phenotype files, and the BMB_GD.txt and BMB_GM.txt files to perform GWAS in GAPIT. The BMB_GD.txt file provides genotype data for each of the barley lines and SNPs used in this analysis, and the BMB_GM.txt file provides the genomic location of each SNP. The Wilcoxons code is for testing differences in agronomic traits between allelic groups at microbe trait associated SNPs.
 
 ## Citations
 This work supports the manuscript currently under review at Theoretical and Applied Genetics, and posted on bioRxiv, https://www.biorxiv.org/content/10.1101/2024.11.21.624704v1.abstract
 
 Raw 16S and ITS reads as fastq files are available in the NCBI Sequence Read Archive database under BioProject PRJNA909304, https://www.ncbi.nlm.nih.gov/bioproject/PRJNA909304.
 
-Genotype data for the S2MET barley population utilized in this study can be found at:
+Genotype by sequencing data for the S2MET barley population utilized in this study can be found at:
   Neyhart, Jeffrey L; Smith, Kevin P. (2019).
   SNP Genotyping Data for the Barley Population in "Registration of the S2MET Barley Mapping Population for Multi-Environment Genomewide Selection".
   Retrieved from the Data Repository for the University of Minnesota (DRUM), https://doi.org/10.13020/cp4r-0v95.
